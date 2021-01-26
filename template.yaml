@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nameid
+spec:
+  containers:
+    - name: nameid
+      image: ubuntu
+      command: ["/bin/sleep", "3650d"]
+  nodeName: nameid
