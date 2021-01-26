@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: Name
+spec:
+  containers:
+  - name: Name
+    image: ubuntu
+  nodename: Name
