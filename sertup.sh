@@ -8,6 +8,4 @@ sudo apt-get install kubeadm kubelet kubectl
 sudo apt-mark hold kubeadm kubelet kubectl
 sudo swapoff –a
 #set host name
-sudo hostnamectl set-hostname worker01
-# key change step
-kubeadm join --discovery-token abcdef.1234567890abcdef --discovery-token-ca-cert-hash sha256:1234..cdef 1.2.3.4:6443
+sudo hostnamectl set-hostname worker-edgevpn-01
